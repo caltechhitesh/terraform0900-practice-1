@@ -3,7 +3,7 @@ resource "aws_instance" "name" {
     instance_type = "t2.medium"
 
     tags = {
-        Name = "my-ec2-instance"
+        Name = "my-ec2-amitabh"
     }
 }
 
