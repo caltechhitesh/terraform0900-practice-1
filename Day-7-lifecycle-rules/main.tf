@@ -7,10 +7,6 @@ resource "aws_instance" "name" {
     Name = "shahrukh-instance"
   }
 
-  lifecycle {
-    create_before_destroy = true
-    prevent_destroy       = false
-    ignore_changes        = [tags]
-  }
+  
 
 }
